@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "surname": "Melville",
+            "name": "Herman",
+            "birthday": "11.01.1990",
+            "gender": "Male"
+        },
+        {
+            "surname": "Hemingway",
+            "name": "Ernest",
+            "birthday": "22.04.1994",
+            "gender": "Female"
+        },
+        {
+            "surname": "Brett",
+            "name": "Peter",
+            "birthday": "22.04.1994",
+            "gender": "Female"
+        }
+    ]
+}

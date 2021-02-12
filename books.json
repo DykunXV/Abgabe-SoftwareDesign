@@ -1,0 +1,67 @@
+{
+    "books": [
+        {
+            "title": "Moby Dick",
+            "published": "18.10.1851",
+            "authors": "Herman Melville",
+            "publisher": "Richard Bentley",
+            "isbn-13": "9780140861723",
+            "genre": "Thriller",
+            "pages": 392
+        },
+        {
+            "title": "Der alte Mann und das Meer",
+            "published": "01.09.1952",
+            "authors": "Ernest Hemingway",
+            "publisher": "Simon + Schuster Inc.",
+            "isbn-13": "9780743564366",
+            "genre": "Roman",
+            "pages": 127
+        },
+        {
+            "title": "Moby Cricket",
+            "published": "26.04.2016",
+            "authors": "Peter Brett",
+            "publisher": "Heyne",
+            "isbn-13": "9783453526112",
+            "genre": "Fantasy",
+            "pages": 1008
+        },
+        {
+            "title": "Testbuch",
+            "published": "01.01.2000",
+            "authors": "Ernest Hemingway",
+            "publisher": "Testverlag",
+            "isbn-13": "9730546564366",
+            "genre": "Roman",
+            "pages": 1274
+        },
+        {
+            "title": "Botan the Poi",
+            "published": "01.01.2000",
+            "authors": "Ernest Hemingway",
+            "publisher": "Testverlag",
+            "isbn-13": "9720546562366",
+            "genre": "Roman",
+            "pages": 1274
+        },
+        {
+            "title": "Rawr Lion",
+            "published": "01.01.2000",
+            "authors": "Ernest Hemingway",
+            "publisher": "Testverlag",
+            "isbn-13": "9730545562366",
+            "genre": "Roman",
+            "pages": 1274
+        },
+        {
+            "title": "Maria und Ich",
+            "published": "12.05.2020",
+            "authors": "Melville Herman",
+            "publisher": "M",
+            "isbn-13": "6361q3",
+            "genre": "Mystery",
+            "pages": 535
+        }
+    ]
+}
