@@ -4,13 +4,17 @@ def login():
 
     permission = select_permission()
 
+    #hardcoded username and password
+    valid_username = 'admin'
+    valid_password = '1234'
+
     if permission == '1':
 
         while (True):
             entered_username = input("\nPlease enter your username (username is admin): \n")
             entered_password = input("\nPlease enter your password (password is 1234): \n")
         
-            if entered_username == 'admin' and entered_password == '1234':
+            if entered_username == valid_username and entered_password == valid_password:
                 break
 
             else:

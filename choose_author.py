@@ -45,5 +45,6 @@ def choose_author():
     if selection == -1:
         quit()
 
+    #add name to surname and return the full name
     selected_author = selected_author_surname + " " + selected_author_name
     return selected_author
