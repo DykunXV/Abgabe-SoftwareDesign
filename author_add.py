@@ -1,8 +1,12 @@
 import json
 from write_json import write_json
 from enter_date import enter_date
+from enter_author_name import enter_author_name
 
+surname = "surname"
+name = "name"
 filename = 'authors.json'
+
 
 def author_add():
 
@@ -12,8 +16,8 @@ def author_add():
         temp = data['authors']
 
     #define the data that will be appended
-    author_surname = input("\nPlease enter the surname of the author: \n")
-    author_name = input("\nPlease enter the name of the author: \n")
+    author_surname = enter_author_name(surname)
+    author_name = enter_author_name(name)
     author_birthday = enter_date(filename)
     author_gender = input("\nPlease enter the gender of the author: \n")
     y = {

@@ -16,3 +16,5 @@ __pycache__/options.cpython-39.pyc
 __pycache__/select_permission.cpython-39.pyc
 __pycache__/selection_permission.cpython-39.pyc
 __pycache__/write_json.cpython-39.pyc
+__pycache__/enter_author_name.cpython-39.pyc
+__pycache__/enter_genre.cpython-39.pyc

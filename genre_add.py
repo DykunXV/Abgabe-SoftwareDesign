@@ -1,6 +1,7 @@
 import json
 from write_json import write_json
 from genres_check import genres_check
+from enter_genre import enter_genre
 
 filename = 'genres.json'
 
@@ -12,7 +13,7 @@ def genre_add():
         temp = data['genres']
 
     #define the data that will be appended
-    genre = input("\nPlease enter a genre: \n")
+    genre = enter_genre()
     y = {
             "genre": genre
         }
