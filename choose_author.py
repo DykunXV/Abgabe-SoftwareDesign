@@ -27,7 +27,7 @@ def choose_author():
         else:
             print('\nNo authors found.')
 
-    #Choose position of the author, in the array of authors
+    #choose position of the author, in the array of authors. if input is 0, quits the program.
     while (True):
         while (True):
             try:
@@ -40,8 +40,7 @@ def choose_author():
             selected_author_name = names[selection]
             break
         except IndexError:
-            print("\nNo author exists at that position.")
-    
+            print("\nNo author exists at that position.") 
     if selection == -1:
         quit()
 

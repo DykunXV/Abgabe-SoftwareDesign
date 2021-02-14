@@ -8,6 +8,7 @@ from genre_search import genre_search
 
 def options():
 
+    #get selection
     selection = selection_permission()
 
     if selection == '1':

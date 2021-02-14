@@ -1,6 +1,7 @@
 import json
 
 def choose_genre():
+
     #open genres.json
     with open('genres.json') as json_file:
         data = json.load(json_file)
@@ -10,6 +11,7 @@ def choose_genre():
     available_genres = []
     counter = 0
 
+    #let the user enter a input to be searched. lists results. if no results are found, repeat.
     while (True):
         search_input = input("\nPlease enter the name of the genre you are looking for. \n")
         for genre in data['genres']:
@@ -18,7 +20,6 @@ def choose_genre():
                 genre_numbered = str(counter + 1) + ". " + genre['genre']
                 available_genres_numbered.append(genre_numbered)
                 counter = counter + 1
-            
         if counter != 0:
             print('\nFound', counter, 'result(s).')
             print(available_genres_numbered)
@@ -26,7 +27,7 @@ def choose_genre():
         else:
             print('\nNo genres found.')
 
-    #Choose position of the genre, you want to add
+    #choose position of the genre, in the array of genres. if input is 0, quits the program.
     while (True):
         while (True):
             try:
@@ -39,7 +40,6 @@ def choose_genre():
             break
         except IndexError:
             print("\nNo genre exists at that position.")
-    
     if selection == -1:
         quit()
 

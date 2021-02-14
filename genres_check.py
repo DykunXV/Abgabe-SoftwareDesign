@@ -9,12 +9,12 @@ def genres_check(genreName):
     available_genres = []
     counter = 0
 
-    #check if a author exists
+    #check if a genre already exists
     for genre in data['genres']:
         if genreName in genre['genre']: 
             counter = counter + 1
     
-    #quits the programm if there are no authors
+    #if a genre was found, quit the program
     if counter >= 1:
         print("\nThis genry already exists.")
         quit()

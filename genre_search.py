@@ -15,6 +15,7 @@ def genre_search():
     isbn_found_books = []
     counter = 0
 
+    #let the user enter a genre to be searched. lists books with that genre. if no books are found, repeat.
     while (True):
         search_input = choose_genre()
         for book in sorted_data['books']:
@@ -23,7 +24,6 @@ def genre_search():
                 found_books.append(book_info)
                 isbn_found_books.append(book['isbn-13'])
                 counter = counter + 1
-        
         if counter != 0:
             print('\nFound', counter, 'result(s).')
             print(found_books)

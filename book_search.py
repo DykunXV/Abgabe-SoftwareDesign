@@ -5,7 +5,7 @@ def book_search():
     with open('books.json') as json_file:
         data = json.load(json_file)
 
-    #sorts the results in ascending order, by title
+    #sort books by title in ascending order
     sorted_data = data
     sorted_data['books'] = sorted(data['books'], key=lambda x : x['title'], reverse=False)
 
@@ -14,6 +14,7 @@ def book_search():
     isbn_found_books = []
     counter = 0
 
+    #let the user enter a input to be searched. lists results. if no results are found, repeat.
     while (True):
         search_input = input("\nPlease enter the name or ISBN of the book you are looking for. \n")
         for book in sorted_data['books']:
@@ -22,7 +23,6 @@ def book_search():
                 found_books.append(book_info)
                 isbn_found_books.append(book['isbn-13'])
                 counter = counter + 1
-        
         if counter != 0:
             print('\nFound', counter, 'result(s).')
             print(found_books)
@@ -30,7 +30,7 @@ def book_search():
         else:
             print('\nNo books found.')
 
-    #Choose position of the book, in the array of books
+    #choose position of the book, in the array of books. if input is 0, quits the program.
     while (True):
         while (True):
             try:
@@ -43,7 +43,6 @@ def book_search():
             break
         except IndexError:
             print("\nNo book exists at that position.")
-    
     if selection == -1:
         quit()
 

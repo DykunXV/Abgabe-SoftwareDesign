@@ -10,16 +10,16 @@ filename = 'books.json'
 
 def book_add():
 
-    #check if an author is available
+    #check if an author has been added
     author_check()
 
     #open books.json
-    with open('books.json') as json_file:
+    with open(filename) as json_file:
         data = json.load(json_file)
         temp = data['books']
 
 
-    # python object to be appended
+    #define the data that will be appended
     book_title = input("\nPlease enter the title of the book: \n")
     book_published = enter_date(filename)
     book_author = choose_author()
@@ -37,7 +37,7 @@ def book_add():
             "pages": book_pages
         }
 
-    # appending data to books.json
+    #appending data to books.json
     temp.append(y)
     write_json(data, filename)
     print("\nBook added.")

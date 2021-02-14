@@ -7,12 +7,13 @@ def author_search():
     with open('authors.json') as json_file:
         data = json.load(json_file)
 
-    #delcare variables for incoming loop
+    #declare variables for incoming loop
     found_authors = []
     surnames = []
     names = []
     counter = 0
 
+    #let the user enter a input to be searched. lists results. if no results are found, repeat.
     while (True):
         search_input = input("\nPlease enter the name or surname of the author you are looking for. \n")
         for author in data['authors']:
@@ -22,7 +23,6 @@ def author_search():
                 full_name_numbered = str(counter + 1) + ". " + surnames[counter] + " " + names[counter]
                 found_authors.append(full_name_numbered)
                 counter = counter + 1
-        
         if counter != 0:
             print('\nFound', counter, 'result(s).')
             print(found_authors)
@@ -30,7 +30,7 @@ def author_search():
         else:
             print('\nNo authors found.')
 
-    #Choose position of the author, in the array of authors
+    #let user choose position of the author, in the array of authors
     while (True):
         while (True):
             try:

@@ -4,6 +4,7 @@ import json
 #the following function is the function that will be used to display the first three books of an author
 def book_search_author(selected_author_surname, selected_author_name):
 
+    #open books.json
     with open('books.json') as json_file:
         data = json.load(json_file)
 
