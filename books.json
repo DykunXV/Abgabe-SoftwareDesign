@@ -17,60 +17,6 @@
             "isbn-13": "9780743564366",
             "genre": "Roman",
             "pages": 127
-        },
-        {
-            "title": "Moby Cricket",
-            "published": "26.04.2016",
-            "authors": "Peter Brett",
-            "publisher": "Heyne",
-            "isbn-13": "9783453526112",
-            "genre": "Fantasy",
-            "pages": 1008
-        },
-        {
-            "title": "Testbuch",
-            "published": "01.01.2000",
-            "authors": "Ernest Hemingway",
-            "publisher": "Testverlag",
-            "isbn-13": "9730546564366",
-            "genre": "Roman",
-            "pages": 1274
-        },
-        {
-            "title": "Botan the Poi",
-            "published": "01.01.2000",
-            "authors": "Ernest Hemingway",
-            "publisher": "Testverlag",
-            "isbn-13": "9720546562366",
-            "genre": "Roman",
-            "pages": 1274
-        },
-        {
-            "title": "Rawr Lion",
-            "published": "01.01.2000",
-            "authors": "Ernest Hemingway",
-            "publisher": "Testverlag",
-            "isbn-13": "9730545562366",
-            "genre": "Roman",
-            "pages": 1274
-        },
-        {
-            "title": "Maria und Ich",
-            "published": "12.05.2020",
-            "authors": "Melville Herman",
-            "publisher": "M",
-            "isbn-13": "6361q3",
-            "genre": "Mystery",
-            "pages": 535
-        },
-        {
-            "title": "bra",
-            "published": "12.02.2020",
-            "authors": "Melville Herman",
-            "publisher": "4",
-            "isbn-13": "135",
-            "genre": "Roman",
-            "pages": 525
         }
     ]
 }
