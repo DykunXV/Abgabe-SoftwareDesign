@@ -20,10 +20,6 @@ def enter_date(data_type):
             print('\nFormat is incorrect.')
         elif date[2] and date[5] != '.':
             print('\nFormat is incorrect.')
-        elif int(date[0]) >= 3 and int(date[1]) >= 2:
-            print('\nNo such date exists')
-        elif int(date[3]) >= 1 and int(date[4]) >= 3:
-            print('\nNo such date exists.')
         else:
             break
 

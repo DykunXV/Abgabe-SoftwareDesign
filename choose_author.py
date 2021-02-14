@@ -31,7 +31,7 @@ def choose_author():
     while (True):
         while (True):
             try:
-                selection = int(input("\nPlease enter the position of author you want to choose. Enter 0 to quit.")) - 1
+                selection = int(input("\nPlease enter the position of author you want to choose. Enter 0 to quit. \n")) - 1
                 break
             except ValueError:
                 print("\nYou entered something that wasn't a number.")
