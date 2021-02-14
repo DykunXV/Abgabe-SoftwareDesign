@@ -9,3 +9,4 @@ Password: 1234
 
 1. Bitte Groß- und Kleinschreibung beachten. Eine suche nach "roman" findet keine Treffer bei der Suche nach "Roman".
 2. Die Funktion, die anzeigt, wie viele Bücher bereits angeschaut wurden, habe ich, aufgrund von Inkomepetenz, nicht impelementieren können.
+3. Ich habe ein paar Platzhalter Daten in die .json Datein eingefügt. Falls sie keine dieser Daten wollen, habe ich ihnen im Ordner "Empty Json Files" leere Datein bereit gestellt, die sie zum Ersetzen benutzen können.
